@@ -1,0 +1,99 @@
+{
+  "id": 618302,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод массива НЕ изменяет исходный массив?",
+      "options": [
+        "push()",
+        "slice()",
+        "splice()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое hoisting в JavaScript?",
+      "options": [
+        "Поднятие переменных и функций в начало их области видимости",
+        "Оптимизация кода движком JavaScript",
+        "Автоматическое преобразование типов данных"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой оператор проверяет равенство и по значению, и по типу?",
+      "options": [
+        "==",
+        "===",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что вернет вызов функции без return?",
+      "options": [
+        "null",
+        "undefined",
+        "Последнее вычисленное значение в функции"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод позволяет привязать контекст к функции?",
+      "options": [
+        "call()",
+        "apply()",
+        "bind()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Что делает оператор spread (...) в JavaScript?",
+      "options": [
+        "Копирует свойства одного объекта в другой",
+        "Раскрывает итерируемый объект на отдельные элементы",
+        "Создает глубокую копию объекта"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой из этих типов данных НЕ является примитивом в JavaScript?",
+      "options": [
+        "symbol",
+        "object",
+        "bigint"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое IIFE в JavaScript?",
+      "options": [
+        "Immediately Invoked Function Expression",
+        "Inline Immediately Function Execution",
+        "Internal Iteration Function Expression"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод Promise запускается при успешном выполнении промиса?",
+      "options": [
+        "catch()",
+        "then()",
+        "finally()"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T21:59:05.059Z"
+}

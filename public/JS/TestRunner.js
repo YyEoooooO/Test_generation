@@ -115,6 +115,7 @@ class TestRunner {
         
         // Обновляем счетчик и прогресс
         this.updateProgress();
+        this.updateNavigation();
         this.setupOptionListeners();
     }
 
@@ -157,14 +158,12 @@ class TestRunner {
     previousQuestion() {
         if (this.currentQuestionIndex > 0) {
             this.displayQuestion(this.currentQuestionIndex - 1);
-            this.updateNavigation();
         }
     }
 
     nextQuestion() {
         if (this.currentQuestionIndex < this.testData.questions.length - 1) {
             this.displayQuestion(this.currentQuestionIndex + 1);
-            this.updateNavigation();
         }
     }
 
@@ -224,6 +223,8 @@ class TestRunner {
 
     closeResultsModal() {
         this.resultsModal.style.display = 'none';
+        // Перенаправляем на главную страницу при закрытии модального окна
+        window.location.href = 'index.html';
     }
 
     showLoading() {

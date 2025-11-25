@@ -1,7 +1,9 @@
 // Обработка формы генерации теста
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('testForm');
-    const resultDiv = document.getElementById('generationResult');
+    const resultDiv = document.getElementById('generationResult')
+    
+    const takeTestBtn = document.getElementById('takeTestBtn');
     
     // Обработка формы генерации теста
     form.addEventListener('submit', async function(e) {
@@ -40,7 +42,14 @@ document.addEventListener('DOMContentLoaded', function() {
             if (result.success) {
                 showResult('success', `Тест создан! ID: ${result.testId}`);
                 localStorage.setItem('lastTestId', result.testId);
+
+                // Показываем кнопку и устанавливаем обработчик
+                takeTestBtn.style.display = 'block';
+                takeTestBtn.onclick = function() {
+                    window.location.href = `test.html?testId=${result.testId}`;
+                };
             } else {
+                takeTestBtn.style.display = 'none';
                 showResult('error', result.error);
             }
         } catch (error) {
@@ -53,9 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
         resultDiv.className = `result-message ${type}`;
         resultDiv.style.display = 'block';
         
-        // Автоматически скрыть сообщение через 5 секунд
+        // Автоматически скрыть сообщение через 15 секунд
         setTimeout(() => {
             resultDiv.style.display = 'none';
-        }, 50000);
+        }, 15000);
     }
 });

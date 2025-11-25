@@ -1,0 +1,27 @@
+{
+  "id": 167629,
+  "name": "Тест по calculus",
+  "questions": [
+    {
+      "question": "Что такое calculus?",
+      "options": [
+        "Язык программирования",
+        "Фреймворк для разработки",
+        "Методология тестирования"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой основной принцип calculus?",
+      "options": [
+        "Инкапсуляция",
+        "Наследование",
+        "Полиморфизм"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "calculus",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T23:04:42.491Z"
+}

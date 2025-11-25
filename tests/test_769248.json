@@ -1,0 +1,27 @@
+{
+  "id": 769248,
+  "name": "Тест по statistics",
+  "questions": [
+    {
+      "question": "Что такое statistics?",
+      "options": [
+        "Язык программирования",
+        "Фреймворк для разработки",
+        "Методология тестирования"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой основной принцип statistics?",
+      "options": [
+        "Инкапсуляция",
+        "Наследование",
+        "Полиморфизм"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "statistics",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T23:05:21.465Z"
+}

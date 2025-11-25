@@ -526,3 +526,112 @@ footer {
         padding: 10px;
     }
 }
+
+/* Стиль для кнопки "Пройти тест" */
+#takeTestBtn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#takeTestBtn:hover {
+    background-color: #218838;
+}
+
+/* Стили для вкладок */
+.tabs-section {
+    margin-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 12px 24px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #6c757d;
+}
+
+.tab-button:hover {
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.tab-button.active {
+    color: #007bff;
+    border-bottom-color: #007bff;
+    font-weight: 600;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Бейдж для пользовательских тестов */
+.user-test-badge {
+    background: #28a745;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Кнопка удаления из моих тестов */
+.delete-test-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.delete-test-btn:hover {
+    background: #c82333;
+}
+
+/* Адаптивность для вкладок */
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+    }
+    
+    .tab-button {
+        text-align: center;
+        border-bottom: 1px solid #e9ecef;
+        border-left: 3px solid transparent;
+    }
+    
+    .tab-button.active {
+        border-left-color: #007bff;
+        border-bottom-color: #e9ecef;
+    }
+}

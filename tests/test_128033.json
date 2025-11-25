@@ -1,0 +1,99 @@
+{
+  "id": 128033,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"object\"",
+        "\"null\"",
+        "\"undefined\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод массива НЕ изменяет исходный массив?",
+      "options": [
+        "push()",
+        "splice()",
+        "concat()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        "Функция, которая возвращает объект",
+        "Функция, имеющая доступ к переменным из внешней области видимости",
+        "Способ объявления переменных"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой оператор проверяет строгое равенство (и значение, и тип)?",
+      "options": [
+        "==",
+        "===",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что делает ключевое слово `let` в отличие от `var`?",
+      "options": [
+        "Создает переменную с блочной областью видимости",
+        "Создает глобальную переменную",
+        "Создает константу"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод используется для преобразования JSON строки в объект?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.toObject()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Что выведет этот код?",
+      "options": [
+        "true",
+        "false",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод позволяет вызвать функцию с указанием контекста `this`?",
+      "options": [
+        "bind()",
+        "call()",
+        "apply()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое промис (Promise) в JavaScript?",
+      "options": [
+        "Объект, представляющий возможное завершение асинхронной операции",
+        "Синхронная функция",
+        "Тип данных для хранения чисел"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой символ используется для шаблонных строк (template literals)?",
+      "options": [
+        "' '",
+        "\" \"",
+        "` `"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T21:59:55.401Z"
+}

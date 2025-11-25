@@ -1,0 +1,27 @@
+{
+  "id": 895518,
+  "name": "Тест по physics",
+  "questions": [
+    {
+      "question": "Что такое physics?",
+      "options": [
+        "Язык программирования",
+        "Фреймворк для разработки",
+        "Методология тестирования"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой основной принцип physics?",
+      "options": [
+        "Инкапсуляция",
+        "Наследование",
+        "Полиморфизм"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "physics",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T23:04:25.855Z"
+}
