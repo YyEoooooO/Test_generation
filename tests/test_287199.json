@@ -1,0 +1,99 @@
+{
+  "id": 287199,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Какой метод массива в JavaScript возвращает новый массив, содержащий все элементы, прошедшие проверку в переданной функции?",
+      "options": [
+        "`map()`",
+        "`filter()`",
+        "`reduce()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что выведет следующий код: `console.log(typeof null);`?",
+      "options": [
+        "`\"null\"`",
+        "`\"object\"`",
+        "`\"undefined\"`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой оператор используется для проверки строгого равенства в JavaScript?",
+      "options": [
+        "`==`",
+        "`===`",
+        "`=`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        "Функция, которая не имеет доступа к внешним переменным",
+        "Функция, которая запоминает своё лексическое окружение даже после выполнения",
+        "Способ объявления переменных с помощью `let`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод используется для добавления элемента в конец массива?",
+      "options": [
+        "`push()`",
+        "`pop()`",
+        "`shift()`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Что выведет `console.log(1 + \"1\")` в JavaScript?",
+      "options": [
+        "`2`",
+        "`\"11\"`",
+        "`NaN`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой ключевой слово используется для объявления константы в JavaScript?",
+      "options": [
+        "`let`",
+        "`var`",
+        "`const`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой метод преобразует JSON-строку в JavaScript-объект?",
+      "options": [
+        "`JSON.stringify()`",
+        "`JSON.parse()`",
+        "`JSON.toObject()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое `NaN` в JavaScript?",
+      "options": [
+        "Сокращение от \"Not a Number\"",
+        "Тип данных, аналогичный `null`",
+        "Метод для проверки чисел"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой цикл выполняется, пока условие истинно, и проверяет условие перед каждой итерацией?",
+      "options": [
+        "`for`",
+        "`while`",
+        "`do...while`"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T19:36:41.378Z"
+}
