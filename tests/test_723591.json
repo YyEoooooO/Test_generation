@@ -1,0 +1,90 @@
+{
+  "id": 723591,
+  "name": "Тест по java",
+  "questions": [
+    {
+      "question": "Какой из этих модификаторов доступа в Java позволяет обращаться к члену класса из любого другого класса в том же пакете?",
+      "options": [
+        "`private`",
+        "`protected`",
+        "`default` (package-private)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой интерфейс в Java используется для реализации сравнения объектов при сортировке?",
+      "options": [
+        "`Serializable`",
+        "`Comparable`",
+        "`Cloneable`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой оператор в Java используется для проверки совместимости типов во время выполнения?",
+      "options": [
+        "`instanceof`",
+        "`typeof`",
+        "`cast`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод вызывается при создании объекта в Java?",
+      "options": [
+        "`main()`",
+        "`init()`",
+        "`Конструктор`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой из этих типов данных в Java является примитивным?",
+      "options": [
+        "`String`",
+        "`Integer`",
+        "`boolean`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой ключевой слово в Java используется для наследования класса?",
+      "options": [
+        "`implements`",
+        "`extends`",
+        "`inherits`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой из этих коллекционных классов в Java реализует интерфейс `Queue`?",
+      "options": [
+        "`ArrayList`",
+        "`LinkedList`",
+        "`PriorityQueue`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой метод в Java используется для запуска потока?",
+      "options": [
+        "`run()`",
+        "`start()`",
+        "`execute()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой из этих операторов в Java используется для выхода из цикла?",
+      "options": [
+        "`break`",
+        "`continue`",
+        "`return`"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "topic": "java",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T20:38:39.529Z"
+}
