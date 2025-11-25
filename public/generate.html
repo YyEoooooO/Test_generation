@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать тест</title>
+    <link rel="stylesheet" href="/style/style_main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ТестПлатформа</div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="generate.html" class="active">Создать тест</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="generate-section">
+            <h1>Создать новый тест</h1>
+
+        <form id="testForm" class="generate-form">
+            <div class="form-group">
+                <label for="testName">Название теста:</label>
+                <input type="text" id="testName" name="testName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="questionCount">Количество вопросов:</label>
+                <input type="number" id="questionCount" name="questionCount" min="1" max="50" value="10" required>
+            </div>
+
+            <div class="form-group">
+                <label for="difficulty">Сложность:</label>
+                <select id="difficulty" name="difficulty" required>
+                    <option value="easy">Легкая</option>
+                    <option value="medium" selected>Средняя</option>
+                    <option value="hard">Сложная</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Категория:</label>
+                <select id="category" name="category" required>
+                    <option value="programming">Программирование</option>
+                    <option value="math">Математика</option>
+                    <option value="science">Наука</option>
+                    <option value="language">Языки</option>
+                    <option value="other">Другое</option>
+                </select>
+            </div>
+
+            <!-- Динамические поля -->
+            <div id="dynamicFields"></div>
+
+            <button type="submit" class="btn-primary">Сгенерировать тест</button>
+        </form>
+
+            <div id="generationResult" class="result-message" style="display: none;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ТестПлатформа. Все права защищены.</p>
+    </footer>
+
+    <script src="JS/generate.js"></script>
+    <script src="JS/Dinampola.js"></script>
+</body>
+</html>

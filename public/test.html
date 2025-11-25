@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прохождение теста</title>
+    <link rel="stylesheet" href="/style/style_main.css">
+    <link rel="stylesheet" href="/style/test_style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ТестПлатформа</div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="generate.html">Создать тест</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="test-container">
+            <div id="testHeader">
+                <h1 id="testTitle">Загрузка теста...</h1>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="question-counter" id="questionCounter">Вопрос 0 из 0</div>
+            </div>
+
+            <div id="testContent">
+                <div class="loading">Загрузка теста...</div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button id="prevBtn" class="nav-btn" disabled>Предыдущий</button>
+                <button id="nextBtn" class="nav-btn">Следующий</button>
+                <button id="submitBtn" class="submit-btn" style="display: none;">Завершить тест</button>
+            </div>
+        </div>
+
+        <!-- Модальное окно результатов -->
+        <div id="resultsModal" class="modal">
+            <div class="modal-content">
+                <h2>Результаты теста</h2>
+                <div id="resultsContent"></div>
+                <button id="closeResults" class="close-btn">Закрыть</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ТестПлатформа. Все права защищены.</p>
+    </footer>
+
+    <script src="/JS/TestRunner.js"></script>
+</body>
+</html>
