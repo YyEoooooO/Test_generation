@@ -1,0 +1,99 @@
+{
+  "id": 140079,
+  "name": "Тест по python",
+  "questions": [
+    {
+      "question": "Какой оператор используется для вывода текста в Python?",
+      "options": [
+        "`print()`",
+        "`echo()`",
+        "`output()`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой тип данных используется для хранения целых чисел в Python?",
+      "options": [
+        "`float`",
+        "`int`",
+        "`str`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Как создать пустой список в Python?",
+      "options": [
+        "`list()`",
+        "`[]`",
+        "Оба варианта верны"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой символ используется для однострочных комментариев в Python?",
+      "options": [
+        "`//`",
+        "`#`",
+        "`/*`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Как получить длину списка `my_list`?",
+      "options": [
+        "`len(my_list)`",
+        "`my_list.length()`",
+        "`size(my_list)`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой оператор проверяет равенство значений в Python?",
+      "options": [
+        "`=`",
+        "`==`",
+        "`===`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Как объявить функцию в Python?",
+      "options": [
+        "`def my_function():`",
+        "`function my_function():`",
+        "`create my_function():`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод добавляет элемент в конец списка?",
+      "options": [
+        "`append()`",
+        "`add()`",
+        "`push()`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Как преобразовать строку в целое число?",
+      "options": [
+        "`int(\"123\")`",
+        "`str(123)`",
+        "`float(\"123\")`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой символ используется для разбиения строки на части?",
+      "options": [
+        "`.`",
+        "`,`",
+        "`split()`"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "topic": "python",
+  "difficulty": "easy",
+  "createdAt": "2025-11-25T20:00:35.051Z"
+}
