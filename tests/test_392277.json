@@ -1,0 +1,90 @@
+{
+  "id": 392277,
+  "name": "Тест по java",
+  "questions": [
+    {
+      "question": "Какой из этих модификаторов доступа в Java позволяет обращаться к члену класса из любого другого класса в том же пакете?",
+      "options": [
+        "`private`",
+        "`protected`",
+        "`public`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой интерфейс в Java используется для реализации сравнения объектов?",
+      "options": [
+        "`Serializable`",
+        "`Comparable`",
+        "`Cloneable`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод вызывается при создании объекта в Java?",
+      "options": [
+        "`main()`",
+        "`finalize()`",
+        "`конструктор`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой оператор в Java используется для проверки типа объекта во время выполнения?",
+      "options": [
+        "`typeof`",
+        "`instanceof`",
+        "`cast`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой из этих типов данных в Java является примитивным?",
+      "options": [
+        "`String`",
+        "`Integer`",
+        "`boolean`"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой метод в Java используется для запуска потока?",
+      "options": [
+        "`run()`",
+        "`start()`",
+        "`execute()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой из этих классов в Java является неизменяемым (immutable)?",
+      "options": [
+        "`StringBuilder`",
+        "`String`",
+        "`ArrayList`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой символ в Java используется для обозначения однострочного комментария?",
+      "options": [
+        "`//`",
+        "`/*`",
+        "`#`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой из этих методов переопределяется в классе для поддержки хеширования в `HashMap`?",
+      "options": [
+        "`equals()`",
+        "`toString()`",
+        "`wait()`"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "topic": "java",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T20:38:41.022Z"
+}
