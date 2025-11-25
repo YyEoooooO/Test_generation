@@ -104,7 +104,7 @@ async function generateWithAI(testData)
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-                "Authorization": "Bearer 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", // API-ключ
+                "Authorization": "Bearer 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", // API-ключ
                 "HTTP-Referer": "http://localhost:3000",
                 "X-Title": "Test Generator Server",     
                 "Content-Type": "application/json"
@@ -119,8 +119,6 @@ async function generateWithAI(testData)
                 ]
             })
         });
-
-        console.log("111");
         if (!response.ok) {
             throw new Error(`Ошибка HTTP: ${response.status}`);
         }
