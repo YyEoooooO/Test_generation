@@ -1,0 +1,99 @@
+{
+  "id": 980719,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"number\"",
+        "\"NaN\"",
+        "\"undefined\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод добавляет элемент в конец массива?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        "Функция, которая имеет доступ к переменным из внешней области видимости",
+        "Специальный тип объекта для хранения данных",
+        "Способ объявления приватных методов класса"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой оператор проверяет равенство по значению и типу?",
+      "options": [
+        "==",
+        "===",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что делает метод Array.prototype.map()?",
+      "options": [
+        "Создает новый массив с результатами вызова функции для каждого элемента",
+        "Фильтрует элементы массива по условию",
+        "Изменяет исходный массив, удаляя указанные элементы"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой будет результат выполнения `\"5\" + 3` в JavaScript?",
+      "options": [
+        "8",
+        "\"53\"",
+        "Ошибка"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое hoisting в JavaScript?",
+      "options": [
+        "Поднятие объявлений переменных и функций вверх области видимости",
+        "Способ оптимизации кода движком JavaScript",
+        "Специальный тип асинхронной операции"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод используется для обработки промисов при ошибке?",
+      "options": [
+        ".then()",
+        ".catch()",
+        ".finally()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что выведет `console.log(0.1 + 0.2 === 0.3);`?",
+      "options": [
+        "true",
+        "false",
+        "undefined"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод преобразует JSON-строку в JavaScript-объект?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.toObject()"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T21:58:45.194Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": 424929,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"object\"",
+        "\"null\"",
+        "\"undefined\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод массива в JavaScript возвращает новый массив, содержащий элементы, прошедшие проверку?",
+      "options": [
+        "`map()`",
+        "`filter()`",
+        "`reduce()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        "Функция, которая возвращает объект",
+        "Функция, которая имеет доступ к переменным из внешней области видимости",
+        "Способ объявления переменных с помощью `const`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой оператор используется для строгого сравнения в JavaScript?",
+      "options": [
+        "`==`",
+        "`===`",
+        "`=`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "10",
+        "11",
+        "9"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод используется для преобразования JSON-строки в объект JavaScript?",
+      "options": [
+        "`JSON.stringify()`",
+        "`JSON.parse()`",
+        "`JSON.toObject()`"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что делает ключевое слово `async` перед функцией?",
+      "options": [
+        "Делает функцию синхронной",
+        "Позволяет использовать `await` внутри функции",
+        "Автоматически возвращает промис"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Какой метод позволяет добавить элемент в конец массива?",
+      "options": [
+        "`push()`",
+        "`pop()`",
+        "`shift()`"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"123\"",
+        "\"15\"",
+        "6"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод объекта `Promise` вызывается при успешном выполнении промиса?",
+      "options": [
+        "`.catch()`",
+        "`.finally()`",
+        "`.then()`"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T21:59:19.133Z"
+}

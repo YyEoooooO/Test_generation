@@ -1,0 +1,99 @@
+{
+  "id": 228157,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что выведет следующий код?",
+      "options": [
+        "\"object\"",
+        "\"null\"",
+        "\"undefined\""
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод массива возвращает новый массив, а не изменяет исходный?",
+      "options": [
+        "push()",
+        "splice()",
+        "concat()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Что такое замыкание (closure) в JavaScript?",
+      "options": [
+        "Функция, которая имеет доступ к переменным из внешней области видимости",
+        "Способ скрыть реализацию класса",
+        "Специальный тип объекта для хранения данных"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой оператор проверяет равенство без приведения типов?",
+      "options": [
+        "==",
+        "===",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что делает ключевое слово `this` внутри метода объекта?",
+      "options": [
+        "Ссылается на глобальный объект",
+        "Ссылается на родительский объект",
+        "Ссылается на сам объект, в котором определен метод"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Какой из этих методов является асинхронным?",
+      "options": [
+        "Array.forEach()",
+        "setTimeout()",
+        "String.indexOf()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Что вернет вызов функции без return?",
+      "options": [
+        "undefined",
+        "null",
+        "Будет ошибка"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод преобразует JSON-строку в JavaScript-объект?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.toObject()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Что такое промис (Promise) в JavaScript?",
+      "options": [
+        "Объект, представляющий возможное завершение (или сбой) асинхронной операции",
+        "Специальный тип функции-конструктора",
+        "Способ объявления констант"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой метод добавляет элемент в начало массива?",
+      "options": [
+        "shift()",
+        "unshift()",
+        "prepend()"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T21:59:05.045Z"
+}

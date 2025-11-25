@@ -1,0 +1,27 @@
+{
+  "id": 877630,
+  "name": "Тест по python",
+  "questions": [
+    {
+      "question": "Что такое python?",
+      "options": [
+        "Язык программирования",
+        "Фреймворк для разработки",
+        "Методология тестирования"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой основной принцип python?",
+      "options": [
+        "Инкапсуляция",
+        "Наследование",
+        "Полиморфизм"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "python",
+  "difficulty": "medium",
+  "createdAt": "2025-11-25T23:03:22.937Z"
+}
