@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 showResult('success', `Тест создан! ID: ${result.testId}`);
                 localStorage.setItem('lastTestId', result.testId);
 
+                // Сохраняем testId в куки
+                CookieManager.addTestId(result.testId);
+
                 // Показываем кнопку и устанавливаем обработчик
                 takeTestBtn.style.display = 'block';
                 takeTestBtn.onclick = function() {

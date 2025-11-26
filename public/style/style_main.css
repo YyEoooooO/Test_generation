@@ -635,3 +635,161 @@ footer {
         border-bottom-color: #e9ecef;
     }
 }
+
+.user-test-card {
+    border: 2px solid #4CAF50;
+    background-color: #f9fff9;
+}
+
+.delete-test-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-test-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Стили для вкладок */
+.tabs-section {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.tabs {
+    display: inline-flex;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 4px;
+    gap: 4px;
+}
+
+.tab-button {
+    padding: 12px 24px;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: #666;
+}
+
+.tab-button.active {
+    background: #fff;
+    color: #4CAF50;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tab-button:hover:not(.active) {
+    background: rgba(255,255,255,0.5);
+    color: #333;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Стили для карточек тестов */
+.test-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.test-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.user-test-card {
+    border-left: 4px solid #4CAF50;
+    background: linear-gradient(135deg, #f9fff9 0%, #f0f8f0 100%);
+}
+
+.test-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.start-test-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    min-width: 120px;
+}
+
+.start-test-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-test-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.delete-test-btn:hover {
+    background-color: #ff5252;
+}
+
+/* Состояния загрузки и ошибок */
+.loading, .no-tests, .error {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.no-tests a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.no-tests a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #ff6b6b;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .test-actions {
+        flex-direction: column;
+    }
+    
+    .start-test-btn, .delete-test-btn {
+        flex: none;
+        width: 100%;
+    }
+}
