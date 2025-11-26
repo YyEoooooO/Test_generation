@@ -1,0 +1,27 @@
+{
+  "id": 266044,
+  "name": "Тест по javascript",
+  "questions": [
+    {
+      "question": "Что такое javascript?",
+      "options": [
+        "Язык программирования",
+        "Фреймворк для разработки",
+        "Методология тестирования"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Какой основной принцип javascript?",
+      "options": [
+        "Инкапсуляция",
+        "Наследование",
+        "Полиморфизм"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "topic": "javascript",
+  "difficulty": "medium",
+  "createdAt": "2025-11-26T00:02:59.877Z"
+}

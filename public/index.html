@@ -22,9 +22,26 @@
             <p>Выберите тест для прохождения</p>
         </section>
 
-        <section class="tests-grid" id="testsContainer">
-            <!-- Тесты будут загружены через JavaScript -->
-            <div class="loading">Загрузка тестов...</div>
+        <!-- Переключатель вкладок -->
+        <section class="tabs-section">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="all-tests">Все тесты</button>
+                <button class="tab-button" data-tab="my-tests">Мои тесты</button>
+            </div>
+        </section>
+
+        <!-- Вкладка всех тестов -->
+        <section id="all-tests" class="tab-content active">
+            <div class="tests-grid" id="testsContainer">
+                <div class="loading">Загрузка тестов...</div>
+            </div>
+        </section>
+
+        <!-- Вкладка моих тестов -->
+        <section id="my-tests" class="tab-content">
+            <div class="tests-grid" id="userTestsContainer">
+                <div class="loading">Загрузка ваших тестов...</div>
+            </div>
         </section>
     </main>
 
@@ -32,6 +49,7 @@
         <p>&copy; 2025 ТестПлатформа. Все права защищены.</p>
     </footer>
 
+    <script src="/JS/cookieManager.js"></script>
     <script src="/JS/code.js"></script>
 </body>
 </html>
